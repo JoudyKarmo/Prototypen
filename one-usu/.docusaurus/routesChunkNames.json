@@ -148,6 +148,10 @@
     "content": "content---markdown-page-393-028",
     "__routeContextModule": "__routeContextModule---markdown-page-891-7eb"
   },
+  "/search-838": {
+    "component": "component---theme-search-page-1-a-4-d6f",
+    "__routeContextModule": "__routeContextModule---search-51-e-171"
+  },
   "/docs-553": {
     "component": "component---theme-doc-page-1-be-9be",
     "versionMetadata": "versionMetadata---docs-935-398",
@@ -189,8 +193,8 @@
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-tutorial-extras-translate-your-sitee-44-ddf"
   },
-  "/-19c": {
-    "component": "component---site-src-pages-index-tsx-1-df-d3e",
+  "/-905": {
+    "component": "component---site-src-pages-index-jsc-4-f-f99",
     "config": "config---5-e-9-4f3",
     "__routeContextModule": "__routeContextModule---markdown-page-891-7eb"
   }

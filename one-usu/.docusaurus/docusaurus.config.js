@@ -31,6 +31,20 @@ export default {
       }
     ]
   ],
+  "themes": [
+    [
+      "@easyops-cn/docusaurus-search-local",
+      {
+        "hashed": true,
+        "language": [
+          "en",
+          "zh"
+        ],
+        "highlightSearchTermsOnTargetPage": true,
+        "explicitSearchResultPath": true
+      }
+    ]
+  ],
   "themeConfig": {
     "navbar": {
       "title": "USU",
@@ -321,7 +335,6 @@ export default {
   ],
   "customFields": {},
   "plugins": [],
-  "themes": [],
   "scripts": [],
   "stylesheets": [],
   "clientModules": [],

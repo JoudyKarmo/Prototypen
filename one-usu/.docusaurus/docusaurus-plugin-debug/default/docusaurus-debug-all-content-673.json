@@ -655,7 +655,7 @@
       {
         "type": "jsx",
         "permalink": "/",
-        "source": "@site/src/pages/index.tsx"
+        "source": "@site/src/pages/index.js"
       },
       {
         "type": "mdx",
@@ -670,5 +670,6 @@
     ]
   },
   "docusaurus-plugin-debug": {},
-  "docusaurus-theme-classic": {}
+  "docusaurus-theme-classic": {},
+  "@easyops-cn/docusaurus-search-local": {}
 }
