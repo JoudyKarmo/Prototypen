@@ -12,7 +12,7 @@ import type {
 } from '@docusaurus/types';
 
 export const DEFAULT_CONFIG = {
-  // enabled by default, as it makes sense in most cases
+  // Enabled by default, as it makes sense in most cases
   // see also https://github.com/facebook/docusaurus/issues/5880
   contextualSearch: true,
 
@@ -20,7 +20,7 @@ export const DEFAULT_CONFIG = {
   searchPagePath: 'search',
 };
 
-export const Schema = Joi.object({
+export const Schema = Joi.object<ThemeConfig>({
   algolia: Joi.object({
     // Docusaurus attributes
     contextualSearch: Joi.boolean().default(DEFAULT_CONFIG.contextualSearch),

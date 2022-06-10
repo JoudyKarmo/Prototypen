@@ -19,6 +19,7 @@ const config = {
   presets: [
     [
       'classic',
+      // '@docusaurus/core/lib/babel/preset',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
